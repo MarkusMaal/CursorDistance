@@ -1,9 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29009.5
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursorDistance", "CursorDistance.csproj", "{9A57D81A-3501-44B2-8A91-E8A4744EE8FC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursorDistance", "CursorDistance.csproj", "{DC4F2C3D-8095-414D-A48E-AE4976B8E521}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +8,9 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9A57D81A-3501-44B2-8A91-E8A4744EE8FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9A57D81A-3501-44B2-8A91-E8A4744EE8FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9A57D81A-3501-44B2-8A91-E8A4744EE8FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9A57D81A-3501-44B2-8A91-E8A4744EE8FC}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {958F8E30-BCC9-4873-9C16-91FEF4B3B111}
+		{DC4F2C3D-8095-414D-A48E-AE4976B8E521}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC4F2C3D-8095-414D-A48E-AE4976B8E521}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC4F2C3D-8095-414D-A48E-AE4976B8E521}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC4F2C3D-8095-414D-A48E-AE4976B8E521}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

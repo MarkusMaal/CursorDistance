@@ -1,0 +1,33 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="CursorDistance.MainWindow"
+        WindowState="FullScreen"
+        Background="Black"
+        Foreground="White"
+        Title="CursorDistance"
+        PointerMoved="PointerMoveBg"
+        KeyDown="KeyPressed">
+    <Grid Name="Window1">
+        <Label Margin="30" Name="TopLabel" Background="LightSkyBlue" Height="25" FontSize="16" Foreground="Black" VerticalAlignment="Top">Mouse and keyboard testing utility - Press Alt+F4 to exit.</Label>
+        <StackPanel Orientation="Vertical" VerticalAlignment="Bottom" Margin="30">
+            <Label Name="LabelPixels">Pixels travelled: 0</Label>
+            <Label Name="LabelTime">Time: 0 seconds</Label>
+            <Label Name="LabelAvgSpeed">Average speed: 0 px/s</Label>
+            <Label Name="LabelCurSpeed">Current speed: 0 px/s</Label>
+            <Label>Press Escape to clear counters</Label>
+        </StackPanel>
+        <Label Name="CursorTracker"
+               Width="40"
+               Height="40"
+               Background="DimGray"
+               PointerMoved="CursorTracker_OnPointerMoved"
+               PointerPressed="MousePressed"
+               HorizontalContentAlignment="Center"
+               VerticalContentAlignment="Top">
+            
+        </Label>
+    </Grid>
+</Window>
